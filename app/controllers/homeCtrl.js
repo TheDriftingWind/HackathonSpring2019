@@ -1,4 +1,4 @@
-app.controller("LoginCtrl", ["authSvc", "$scope", "$http", "$window","$location", function(authSvc, $scope, $http, $window, $location){
+app.controller("homeCtrl", ["$scope", "$http", "$window","$location", function($scope, $http, $window, $location){
 
 
 }]);

@@ -1,3 +1,9 @@
+/* Home Screen */
+#homeImage{
+  background-image: url('../images/bg/musicSheet.jpg');
+}
+/* End */
+
 .login-box{
     width:50%;
     border:1px solid

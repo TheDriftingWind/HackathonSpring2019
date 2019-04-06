@@ -11,6 +11,17 @@
   background-size: 130%;
 }
 /* End */
+#classicalImage{
+  background-image: url('../images/bg/classical.jpg');
+  background-repeat: no-repeat;
+  background-size: 130%;
+}
+
+#baroqueImage{
+  background-image: url('../images/bg/baroque.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
 
 /*Romantic Screen */
 #romanticImage{

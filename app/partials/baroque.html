@@ -1,24 +1,36 @@
 <!DOCTYPE HTML>
-<html lang="en">
-<head>
-  <title>Baroque Music</title>
-  <meta charset="UTF-8"/>
-</head>
-<body>
-	<h1>Baroque Music</h1>
-	<p>
+<div id="baroqueImage" class="container">
+	<h1 class="jumbotron">Baroque(1600-1750)</h1>
+	<p class="roundedBox">
 		Baroque is a genre of music popular between 1600 and 1750. Famous artists from this period include
 		Johann Sebastian Bach, Antonio Vivaldi and Henry Purcell.
 	</p>
-	<p>
+	<p class="roundedBox">
 		Three important characteristics distinguish Baroque from its contemporaries; a focus on
 		upper and lower tones, layered melodies and an increase in orchestra sizes.
 	</p>
+
+  <ul class="roundedBox" style="align:left">
+    <strong>Key instruments used:</strong>
+    <li>Contrabasson</li>
+    <li>Bass clarinet</li>
+    <li>Piccolo</li>
+    <li>Xylophone</li>
+    <li>Drums</li>
+    <li>Celestes</li>
+    <li>Harps</li>
+    <li>Bells</li>
+    <li>Triangles</li>
+  </ul>
+
+  <a class="btn btn-primary pull-left" href="#/renaissance">Previous</a>
+  <a class="btn btn-primary pull-right" href="#/classical">Next</a>
+
 	<audio id="audio1" src="..\..\sounds\Baroque\baroque1.mp3" autoplay></audio>
 	<audio id="audio2" src="..\..\sounds\Baroque\baroque2.mp3" autoplay></audio>
 	<audio id="audio3" src="..\..\sounds\Baroque\baroque3.mp3" autoplay></audio>
 	<audio id="audio4" src="..\..\sounds\Baroque\baroque4.mp3" autoplay></audio>
-</body>
+
 <script src="..\..\js\util.js"></script>
 <script>
 	let audio1 = document.getElementById("audio1");
@@ -27,4 +39,4 @@
 	let audio4 = document.getElementById("audio4");
 	playAll(audio1, audio2, audio3, audio4);
 </script>
-</html>
+</div>

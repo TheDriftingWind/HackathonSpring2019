@@ -4,11 +4,27 @@
 }
 /* End */
 
+/* Renaissance */
+#RenImage{
+  background-image: url('../images/bg/ren.jpg');
+  background-repeat: no-repeat;
+  background-size: 130%;
+}
+/* End */
+
 /*Romantic Screen */
 #romanticImage{
   background-image: url('../images/bg/romantic.jpg');
   background-repeat: no-repeat;
   background-size: 130%;
+}
+/* End */
+
+/* 20th */
+#twentyImage{
+  background-image: url('../images/bg/twenty.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%
 }
 /* End */
 
@@ -67,7 +83,7 @@ html {
   background: #000;
   font-family: "Noto Serif", serif;
   -webkit-font-smoothing: antialiased;
-  text-align: center;
+  /* text-align: center; */
 }
 
 video#bgvid {

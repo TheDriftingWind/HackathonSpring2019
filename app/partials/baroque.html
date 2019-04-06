@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <title>Baroque Music</title>
+  <meta charset="UTF-8"/>
+</head>
+<body>
+	<h1>Baroque Music</h1>
+	<p>
+		Baroque is a genre of music popular between 1600 and 1750. Famous artists from this period include
+		Johann Sebastian Bach, Antonio Vivaldi and Henry Purcell.
+	</p>
+	<p>
+		Three important characteristics distinguish Baroque from its contemporaries; a focus on
+		upper and lower tones, layered melodies and an increase in orchestra sizes.
+	</p>
+	<audio id="audio1" src="..\..\sounds\Baroque\baroque1.mp3" autoplay></audio>
+	<audio id="audio2" src="..\..\sounds\Baroque\baroque2.mp3" autoplay></audio>
+	<audio id="audio3" src="..\..\sounds\Baroque\baroque3.mp3" autoplay></audio>
+	<audio id="audio4" src="..\..\sounds\Baroque\baroque4.mp3" autoplay></audio>
+</body>
+<script src="..\..\js\util.js"></script>
+<script>
+	let audio1 = document.getElementById("audio1");
+	let audio2 = document.getElementById("audio2");
+	let audio3 = document.getElementById("audio3");
+	let audio4 = document.getElementById("audio4");
+	playAll(audio1, audio2, audio3, audio4);
+</script>
+</html>

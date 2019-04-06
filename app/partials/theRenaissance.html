@@ -1,4 +1,10 @@
 <div id="RenImage" class="container" ">
+
+<audio id="audio1" src="..\..\sounds\Renaissance\renaissance1.mp3" autoplay></audio>
+<audio id="audio2" src="..\..\sounds\Renaissance\renaissance2.mp3" autoplay></audio>
+<audio id="audio3" src="..\..\sounds\Renaissance\renaissance3.mp3" autoplay></audio>
+<div id="renImage" class="login-box container text-center" ">
+
     <h1 class="jumbotron">The Renaissance</h1>
 
     <div class="roundedBox center">
@@ -30,3 +36,10 @@
     <a class="btn btn-primary pull-left" href="#/early">Previous</a>
     <a class="btn btn-primary pull-right" href="#/baroque">Next</a>
 </div>
+<script src="..\..\js\util.js"></script>
+<script>
+  let audio1 = document.getElementById("audio1")
+  let audio2 = document.getElementById("audio1")
+  let audio3 = document.getElementById("audio1")
+  playAll(audio1, audio2, audio3)
+</script>

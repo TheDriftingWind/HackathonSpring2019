@@ -3,8 +3,8 @@ var app = angular.module("app", ["ngRoute","ngResource"]);
 app.config(function($routeProvider){
   $routeProvider
   .when("/home",{
-      controller: "LoginCtrl",
-      templateUrl: "app/partials/mainLogin.html"
+      controller: "homeCtrl",
+      templateUrl: "app/partials/home.html"
   })
   .when('/', {redirectTo: "/home"})
   //.otherwise({redirectTo: "/login"});
